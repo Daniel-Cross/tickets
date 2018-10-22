@@ -75,7 +75,7 @@ i {
 }
 
 /* Style page content */
-.main {
+.main-body {
   margin-left: 200px;
   /* Same as the width of the sidebar */
   padding: 0px 10px;
@@ -128,4 +128,11 @@ i {
 .active-sub {
   background-color: orange;
   color: white;
+}
+
+.top-container {
+  margin-left: 280px;
+  color: #008C8C;
+  font-weight: bold;
+  padding-top: 20px;
 }
