@@ -130,9 +130,39 @@ i {
   color: white;
 }
 
-.top-container {
-  margin-left: 280px;
+.dialog-layer {
+  margin-left: 250px;
   color: #008C8C;
   font-weight: bold;
   padding-top: 20px;
+  border-bottom: 1px solid #b8b8b8
+}
+
+.dialog-button {
+  background-color: #008C8C;
+  color: white;
+  margin-left: 20px;
+}
+
+.dialog-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.dialog-image {
+  height: 110px;
+  width: 150px;
+  margin: 15px;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dialog-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
