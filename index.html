@@ -79,35 +79,127 @@
         <button class="dialog-button"><i class="fas fa-eye"></i>Open dialog</button>
       </div>
     </div>
-    <!-- end of top container -->
+  </div>
 
-    <!-- Primary Page Layout
+  <!-- end of top container -->
+
+  <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row">
+  <div class="row body-layer">
 
-      <!-- Best selling tickets -->
+    <!-- Tickets -->
 
-      <span class="best-selling-tickets six columns">
+    <!-- adult tickets -->
+
+    <div class="tickets six columns">
+      <span class="best-selling-tickets">
         <p class="best-tickets-header">Best Selling Tickets</p>
 
         <div class="selling-ticket-body six columns">
           <i class="far fa-arrow-alt-circle-up"></i>
-          <p>Adult - General</p>
-          <button>Edit</button>
+          <p class="adult">Adult - General</p>
+          <button class="buttons">Edit</button>
           <button>View Sales</button>
         </div>
 
-        <p class="sold">50 sold since Jan 17</p>
-        <p class="increase">20% more sold than last period</p>
+        <span class="tickets-right">
+          <p class="sold">50 sold since Jan 17</p>
+          <p class="increase">20% more sold than last period</p>
+        </span>
 
+        <!-- end of adult tickets -->
+
+        <!-- child ticket -->
+
+        <div class="selling-ticket-child six columns">
+          <i class="far fa-arrow-alt-circle-down"></i>
+          <p class="adult">Child Ticket - General</p>
+          <button class="buttons">Edit</button>
+          <button>View Sales</button>
+        </div>
+
+        <span class="tickets-right-child">
+          <p class="sold-child">12 sold since Jan 17</p>
+          <p class="increase">20% less sold than last period</p>
+        </span>
+        <i class="fas fa-info-circle"></i>
+
+        <!-- end of child ticket -->
+
+        <!-- hidden ticket -->
+
+        <div class="selling-ticket-hidden six columns">
+          <i class="far fa-eye-slash"></i>
+          <p class="adult">Child Ticket - General - <span class="hidden">Hidden</span></p>
+          <button class="buttons">Edit</button>
+          <button>View Sales</button>
+        </div>
+
+        <span class="tickets-right-hidden">
+          <p class="sold">3 sold since Jan 17</p>
+          <p class="increase">20% less sold than last period</p>
+        </span>
+
+        <!-- end of hidden ticket -->
+
+        <!-- ticket sold out -->
+
+        <div class="selling-ticket-hidden six columns">
+          <i class="fas fa-times-circle"></i>
+          <p class="adult">Child Ticket - General</p>
+          <button class="buttons">Edit</button>
+          <button>View Sales</button>
+        </div>
+
+        <span class="tickets-right-no-sale">
+          <p class="no-sale">Not on Sale</p>
+          <p class="increase">Ticket is out of stock</p>
+        </span>
+
+        <!-- end of ticket sold out -->
+
+        <!-- ticket on sale -->
+
+        <div class="selling-ticket-calendar six columns">
+          <i class="fas fa-calendar-alt"></i>
+          <p class="adult">Child Ticket - General</p>
+          <button class="buttons">Edit</button>
+          <button>View Sales</button>
+        </div>
+
+        <span class="tickets-right-calendar">
+          <p class="sold">Upcoming Sale</p>
+          <p class="increase">Ticket is on sale from tomorrow</p>
+        </span>
+
+        <!-- end of ticket on sale -->
       </span>
 
-
-
-
-      <!-- end of best selling tickets -->
+      <!-- end of Tickets -->
 
     </div>
+
+    <div class="widget">
+      <div class="days-until">
+        <h3 class="days">48 days</h3>
+        <h4 class="event">till event's start</h4>
+      </div>
+      <div class="days-until">
+        <h3 class="days">12,642</h3>
+        <h4 class="event">tickets sold</h4>
+      </div>
+      <div class="days-left">
+        <h3 class="days">648</h3>
+        <h4 class="event">guests</h4>
+      </div>
+    </div>
+
+
+    <!-- widget -->
+
+
+
+
 
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -137,6 +137,10 @@ i {
   border-bottom: 1px solid #b8b8b8
 }
 
+.event-title {
+  margin-top: 20px;
+}
+
 .dialog-button {
   background-color: #008C8C;
   color: white;
@@ -160,6 +164,10 @@ i {
   justify-content: space-evenly;
 }
 
+.dialog-button {
+  margin-top: 20px;
+}
+
 .dialog-body {
   display: flex;
   flex-direction: row;
@@ -167,22 +175,185 @@ i {
 }
 
 .best-tickets-header {
-  background-color: #f2f2f2;
   font-weight: bold;
   border: 2px solid #b8b8b8;
-}
-
-.fa-arrow-alt-circle-up {
-  font-size: 50px;
-  color: orange;
-}
-
-.best-tickets-header {
   font-size: 20px;
   padding: 10px 0 10px 20px;
 }
 
-.selling-ticket-body {
-  flex-direction: column;
+.fa-arrow-alt-circle-up {
+  font-size: 80px;
+  color: orange;
+  position: absolute;
+  left: 100;
+}
 
+.fa-arrow-alt-circle-down {
+  font-size: 80px;
+  color: orange;
+  position: absolute;
+  left: 100;
+}
+
+.body-layer {
+  margin-left: 250px;
+  color: #008C8C;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.tickets {
+  border: 1px solid #b8b8b8;
+  margin-left: 30px;
+  position: absolute;
+  left: 280px;
+}
+
+.adult {
+  position: absolute;
+  left: 150px;
+  color: #646464;
+}
+
+.buttons {
+  margin: 40px 10px 20px 100px;
+}
+
+.tickets-right {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.sold {
+  font-size: 18px;
+  margin: 0;
+}
+
+.increase {
+  color: #b8b8b8;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.tickets-right-child {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  margin: 140px 50px 20px 0;
+}
+
+.sold-child {
+  font-size: 18px;
+  margin: 0;
+  color: orange;
+}
+
+.fa-info-circle {
+  color: #b8b8b8;
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  top: 230px;
+  margin: 0;
+}
+
+.hidden {
+  color: #e2e2e2;
+}
+
+.fa-eye-slash {
+  font-size: 80px;
+  color: rgb(255, 199, 95);
+  position: absolute;
+  left: 100;
+}
+
+.tickets-right-hidden {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  margin: 260px 10px 20px 0;
+}
+
+.selling-ticket-hidden {
+  margin-top: 20px;
+}
+
+.selling-ticket-body {
+  margin-top: 10px;
+}
+
+.selling-ticket-child {
+  margin-top: 20px;
+}
+
+.selling-ticket-calendar {
+  margin-top: 20px;
+}
+
+.fa-times-circle {
+  font-size: 80px;
+  color: #b8b8b8;
+  position: absolute;
+  left: 100;
+}
+
+.no-sale {
+  color: #646464;
+  margin: 0;
+}
+
+.tickets-right-no-sale {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  margin: 380px 10px 20px 0;
+}
+
+.fa-calendar-alt {
+  font-size: 80px;
+  color: #008C8C;
+  position: absolute;
+  left: 100;
+}
+
+.tickets-right-calendar {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  margin: 500px 10px 20px 0;
+}
+
+.widget {
+  position: absolute;
+  right: 50px;
+  text-align: center;
+  border: 1px solid #646464;
+  background-color: #008C8C;
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  width: 32%;
+}
+
+.days-until {
+  border-right: 1px solid white;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.days {
+  font-weight: bold;
+  text-shadow: 2px 2px #004040;
+  margin: 0;
+  text-align: center;
+}
+
+.event {
+  padding-right: 20px;
+  color: rgb(118, 199, 199);
+  text-align: center;
 }
